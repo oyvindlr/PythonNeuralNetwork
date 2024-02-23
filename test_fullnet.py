@@ -3,8 +3,6 @@ from fullnet import *
 import numpy as np
 import copy
 
-from fullnet import fullnet
-
 @pytest.fixture
 def nnetsize():
     return [4, 2, 2]
